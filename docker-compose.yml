@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  # ----------------------------------------------------------------------------
+  # MongoDB Atlas / Local Replica Database
+  # ----------------------------------------------------------------------------
+  mongodb:
+    image: mongo:7.0
+    container_name: securevault-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: securevault
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - securevault-network
+
+  # ----------------------------------------------------------------------------
+  # Python ML Node Health & Reliability Microservice
+  # ----------------------------------------------------------------------------
+  ml-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.ml
+    container_name: securevault-ml
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - HOST=0.0.0.0
+    networks:
+      - securevault-network
+
+  # ----------------------------------------------------------------------------
+  # Node.js / Express Core Backend API Service
+  # ----------------------------------------------------------------------------
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: securevault-backend
+    restart: unless-stopped
+    depends_on:
+      - mongodb
+      - ml-service
+    ports:
+      - "5002:5002"
+    environment:
+      - NODE_ENV=production
+      - PORT=5002
+      - FRONTEND_URL=http://localhost:5173
+      - MONGODB_URI=mongodb://mongodb:27017/securevault
+      - MONGODB_DB_NAME=securevault
+      - JWT_SECRET=production_securevault_jwt_secret_min_32_chars_long!
+      - ENCRYPTION_MASTER_KEY=production_securevault_aes_256_key_32_bytes!
+      - ENABLE_DEMO_ACCOUNTS=true
+    volumes:
+      - backend-storage:/app/storage
+      - backend-data:/app/data
+    networks:
+      - securevault-network
+
+  # ----------------------------------------------------------------------------
+  # React / Vite Static Frontend with Nginx Reverse Proxy
+  # ----------------------------------------------------------------------------
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: securevault-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+    networks:
+      - securevault-network
+
+volumes:
+  mongo-data:
+  backend-storage:
+  backend-data:
+
+networks:
+  securevault-network:
+    driver: bridge

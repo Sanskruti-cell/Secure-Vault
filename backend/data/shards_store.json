@@ -1,0 +1,830 @@
+[
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.1",
+    "shardHash": "8f77f91a20116ededa5a6b43bef0c94561918836b7c2ab4985666ad1ae400dd0",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793885222906.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.260Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.260Z",
+        "status": "passed",
+        "computedHash": "8f77f91a20116ededa5a6b43bef0c94561918836b7c2ab4985666ad1ae400dd0"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 13 be b6 00 04 ef ae 5e 9a ea 05 20 69 f5 b7 7c f8 0c 5c 81 12 47 39 ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.2",
+    "shardHash": "697474e081f2a24373362d09e12774d46f033be3841a4bcc7c75deeaf0994bca",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793885222906.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.260Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.260Z",
+        "status": "passed",
+        "computedHash": "697474e081f2a24373362d09e12774d46f033be3841a4bcc7c75deeaf0994bca"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 13 be b6 00 04 ef ae 42 db d6 43 b4 c1 1b b4 27 64 60 54 1a e2 e4 79 ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.3",
+    "shardHash": "ae071ad36711e79635b2e849ffe4280c57fe13741433e4f208aff60c0718488a",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793885222906.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.260Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.260Z",
+        "status": "passed",
+        "computedHash": "ae071ad36711e79635b2e849ffe4280c57fe13741433e4f208aff60c0718488a"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 13 be b6 00 04 ef ae 40 5c 59 70 56 a9 c8 27 ba 52 d8 7d 7a ef c2 34 ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.4",
+    "shardHash": "3d29047a1c9e541ee662bc9f861977776cb10357eacde1f703a954b711f60ec1",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793885222906.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.260Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.260Z",
+        "status": "passed",
+        "computedHash": "3d29047a1c9e541ee662bc9f861977776cb10357eacde1f703a954b711f60ec1"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 13 be b6 00 04 ef ae 4c b3 e2 ec 23 d4 a4 9d ca 3d 5c 9d e2 46 91 68 ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.5",
+    "shardHash": "c007b3889e3f44f796b7569161ad336fa6e4d381d860569c3f3a786ad3531085",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793885222906.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.258Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.258Z",
+        "status": "passed",
+        "computedHash": "c007b3889e3f44f796b7569161ad336fa6e4d381d860569c3f3a786ad3531085"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 13 be b6 00 04 ef ae 61 50 ad 94 8d 38 76 7e ab 85 90 7d 70 43 7d b4 ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885222906.shard.6",
+    "shardHash": "169d3646fb935d34321777936ebdfd4154258c65390c28ddee722d98b57b7be8",
+    "shardSize": 323518,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793885222906.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:27:03.593Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:27:03.593Z",
+        "status": "passed",
+        "computedHash": "169d3646fb935d34321777936ebdfd4154258c65390c28ddee722d98b57b7be8"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 13 be b6 00 04 ef ae 9e 96 47 d5 3b c5 2b 2c 79 9a 3b 9b 75 37 e1 5d ...",
+    "fileId": "6aec8427832fb8c79f485b6b"
+  },
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.1",
+    "shardHash": "414839ea3d141553c2d68c5dbaf513ecdff5e161dd8ddafe3d9eb38a61661db4",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793885151684.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:52.817Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:52.817Z",
+        "status": "passed",
+        "computedHash": "414839ea3d141553c2d68c5dbaf513ecdff5e161dd8ddafe3d9eb38a61661db4"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 0f 9f 5e 00 03 e7 d8 fc ff 16 8e e6 62 6f 4d bd 82 c0 a1 c4 78 66 e3 ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.2",
+    "shardHash": "83785e43eef119346b4be13740a9f9ee80c28cbbe0e1ad9c77d4779fe6b17983",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793885151684.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:52.992Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:52.992Z",
+        "status": "passed",
+        "computedHash": "83785e43eef119346b4be13740a9f9ee80c28cbbe0e1ad9c77d4779fe6b17983"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 0f 9f 5e 00 03 e7 d8 49 04 b6 1c c3 1c 16 9e a8 47 e0 29 66 55 62 d2 ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.3",
+    "shardHash": "253e18427847ad95cf51c2bba6f6475d60017c93d01a8c4cb115c4c72add470c",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793885151684.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:52.988Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:52.988Z",
+        "status": "passed",
+        "computedHash": "253e18427847ad95cf51c2bba6f6475d60017c93d01a8c4cb115c4c72add470c"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 0f 9f 5e 00 03 e7 d8 a1 09 7e e0 32 3e da bd 55 70 6d af f3 30 ec a8 ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.4",
+    "shardHash": "55961eecc61c0f6a0137585e4a15856c766b09b7b7778317ed2b6d3243b19130",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793885151684.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:52.875Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:52.875Z",
+        "status": "passed",
+        "computedHash": "55961eecc61c0f6a0137585e4a15856c766b09b7b7778317ed2b6d3243b19130"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 0f 9f 5e 00 03 e7 d8 d8 1a 30 69 39 25 e2 fc ec 99 aa 61 15 22 82 1a ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.5",
+    "shardHash": "40cf64c50b5062c841a96c166a0f86e66affd248b122a308fba2318f4254069e",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793885151684.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:53.347Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:53.347Z",
+        "status": "passed",
+        "computedHash": "40cf64c50b5062c841a96c166a0f86e66affd248b122a308fba2318f4254069e"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 0f 9f 5e 00 03 e7 d8 48 61 e9 51 22 dc 26 a2 60 07 a9 00 52 3e 84 cb ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793885151684.shard.6",
+    "shardHash": "b16043d12ff8707f9e0ace4de25563c17233eec9af95e4f6d3f1f34d574d7e63",
+    "shardSize": 255976,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793885151684.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T13:25:53.348Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T13:25:53.348Z",
+        "status": "passed",
+        "computedHash": "b16043d12ff8707f9e0ace4de25563c17233eec9af95e4f6d3f1f34d574d7e63"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 0f 9f 5e 00 03 e7 d8 91 43 88 5d 90 67 22 fe 42 75 cd 4c 17 5e fe d5 ...",
+    "fileId": "6aec83e1832fb8c79f483db0"
+  },
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.1",
+    "shardHash": "c3e8ba72d0595cadc56545a0e154b77eab9bdec6f316c8bfc1082872d20e6806",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793882163407.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.741Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.741Z",
+        "status": "passed",
+        "computedHash": "c3e8ba72d0595cadc56545a0e154b77eab9bdec6f316c8bfc1082872d20e6806"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 00 c0 10 00 00 30 04 95 bd 60 52 12 eb fc dc 96 95 24 06 73 c3 ee c7 ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.2",
+    "shardHash": "38f0563262951cde1867fbe18263b5d463f84d1d19eeeddf0833a8ca553e6417",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793882163407.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.742Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.742Z",
+        "status": "passed",
+        "computedHash": "38f0563262951cde1867fbe18263b5d463f84d1d19eeeddf0833a8ca553e6417"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 00 c0 10 00 00 30 04 b4 ae 5b b5 e9 36 94 a7 f1 46 91 ab d5 4e 22 cd ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.3",
+    "shardHash": "211703e59833f36fdd3163f409335e6377c2332a166dfe0a0905a2e0d524f71c",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793882163407.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.741Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.741Z",
+        "status": "passed",
+        "computedHash": "211703e59833f36fdd3163f409335e6377c2332a166dfe0a0905a2e0d524f71c"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 00 c0 10 00 00 30 04 6f 92 4f d4 fb e1 37 01 9a 70 ab ac 81 65 6b 70 ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.4",
+    "shardHash": "36d798a3b86bbafc68bb1e64c603d2c589466e176e80ca9f92bd914fb0d12115",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793882163407.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.743Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.743Z",
+        "status": "passed",
+        "computedHash": "36d798a3b86bbafc68bb1e64c603d2c589466e176e80ca9f92bd914fb0d12115"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 00 c0 10 00 00 30 04 7e 20 03 e5 94 13 eb f2 46 70 4f 8f 7d c6 62 ae ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.5",
+    "shardHash": "11b6c27ff1b7fffaf979061a254ea43025bed5c8dc6c79a6bf6d810e28c7f493",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793882163407.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.741Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.741Z",
+        "status": "passed",
+        "computedHash": "11b6c27ff1b7fffaf979061a254ea43025bed5c8dc6c79a6bf6d810e28c7f493"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 00 c0 10 00 00 30 04 b1 1e ef e9 2a 88 37 29 af 0f 37 d0 60 0c bb 49 ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882163407.shard.6",
+    "shardHash": "0bfffc2dc4dd0ae51a7ee218f38564d36425f455a2cea767ab69fa5ccf6849d5",
+    "shardSize": 12308,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793882163407.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:03.742Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:03.743Z",
+        "status": "passed",
+        "computedHash": "0bfffc2dc4dd0ae51a7ee218f38564d36425f455a2cea767ab69fa5ccf6849d5"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 00 c0 10 00 00 30 04 ac 11 1f de 88 72 f3 a9 e2 e8 a5 3a 8a cf a1 ee ...",
+    "fileId": "6aec783338805a437f74d248"
+  },
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.1",
+    "shardHash": "fcbc62638f20fe08acdc3bb3f9974c486a2ddaa8ca523d077d9fe5f800e9ea5d",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793882160463.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "fcbc62638f20fe08acdc3bb3f9974c486a2ddaa8ca523d077d9fe5f800e9ea5d"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 01 00 10 00 00 40 04 4d 04 38 38 ef 1e 67 8e 97 6e 3a df f4 85 d0 45 ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.2",
+    "shardHash": "99874eafbe49a6511a1a6a0beb02ad99856051aac9eda2be6cabdb09d33e4e3e",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793882160463.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "99874eafbe49a6511a1a6a0beb02ad99856051aac9eda2be6cabdb09d33e4e3e"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 01 00 10 00 00 40 04 8b 9a c7 0e 6f 09 63 37 dd b4 76 36 f6 58 75 1a ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.3",
+    "shardHash": "d0a75a565a4e5931af817aa241eca870bb94ba04e35f93702c0a6e73edee0dd3",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793882160463.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "d0a75a565a4e5931af817aa241eca870bb94ba04e35f93702c0a6e73edee0dd3"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 01 00 10 00 00 40 04 6c a3 cc 5a a8 de 8c 0c 55 cd b6 fb d5 9f ed 73 ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.4",
+    "shardHash": "ddf9e459849656874d36cc283374f1d6efeebfc71a22692eddbc6218f3dc8e09",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793882160463.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "ddf9e459849656874d36cc283374f1d6efeebfc71a22692eddbc6218f3dc8e09"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 01 00 10 00 00 40 04 27 fb a5 8f 72 60 fc ec ca e4 e8 c9 b1 b9 cf 3d ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.5",
+    "shardHash": "2e31e08744aaa2c560944530f6b4ad4ed9e2ddc894feb292307c781cabf79539",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793882160463.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "2e31e08744aaa2c560944530f6b4ad4ed9e2ddc894feb292307c781cabf79539"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 01 00 10 00 00 40 04 ce c8 6b ea 6e 76 08 23 dc 87 21 d2 ec 02 47 c3 ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793882162428.shard.6",
+    "shardHash": "6be41232fb4d8fff41c697469071048bc2e20401286a57177b41cae148d6080d",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793882160463.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:02.513Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:02.513Z",
+        "status": "passed",
+        "computedHash": "6be41232fb4d8fff41c697469071048bc2e20401286a57177b41cae148d6080d"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 01 00 10 00 00 40 04 11 ea 3d 7d 28 8a 7b 13 e0 df 9c 99 92 5d 80 53 ...",
+    "fileId": "6aec783238805a437f74d21a"
+  },
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.1",
+    "shardHash": "fcbc62638f20fe08acdc3bb3f9974c486a2ddaa8ca523d077d9fe5f800e9ea5d",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793882160463.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:00.832Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:00.832Z",
+        "status": "passed",
+        "computedHash": "fcbc62638f20fe08acdc3bb3f9974c486a2ddaa8ca523d077d9fe5f800e9ea5d"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 01 00 10 00 00 40 04 4d 04 38 38 ef 1e 67 8e 97 6e 3a df f4 85 d0 45 ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.2",
+    "shardHash": "99874eafbe49a6511a1a6a0beb02ad99856051aac9eda2be6cabdb09d33e4e3e",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793882160463.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:00.832Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:00.832Z",
+        "status": "passed",
+        "computedHash": "99874eafbe49a6511a1a6a0beb02ad99856051aac9eda2be6cabdb09d33e4e3e"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 01 00 10 00 00 40 04 8b 9a c7 0e 6f 09 63 37 dd b4 76 36 f6 58 75 1a ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.3",
+    "shardHash": "d0a75a565a4e5931af817aa241eca870bb94ba04e35f93702c0a6e73edee0dd3",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793882160463.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:00.833Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:00.833Z",
+        "status": "passed",
+        "computedHash": "d0a75a565a4e5931af817aa241eca870bb94ba04e35f93702c0a6e73edee0dd3"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 01 00 10 00 00 40 04 6c a3 cc 5a a8 de 8c 0c 55 cd b6 fb d5 9f ed 73 ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.4",
+    "shardHash": "ddf9e459849656874d36cc283374f1d6efeebfc71a22692eddbc6218f3dc8e09",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793882160463.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:00.832Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:00.832Z",
+        "status": "passed",
+        "computedHash": "ddf9e459849656874d36cc283374f1d6efeebfc71a22692eddbc6218f3dc8e09"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 01 00 10 00 00 40 04 27 fb a5 8f 72 60 fc ec ca e4 e8 c9 b1 b9 cf 3d ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.5",
+    "shardHash": "2e31e08744aaa2c560944530f6b4ad4ed9e2ddc894feb292307c781cabf79539",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793882160463.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:00.833Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:00.833Z",
+        "status": "passed",
+        "computedHash": "2e31e08744aaa2c560944530f6b4ad4ed9e2ddc894feb292307c781cabf79539"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 01 00 10 00 00 40 04 ce c8 6b ea 6e 76 08 23 dc 87 21 d2 ec 02 47 c3 ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": "securevault-azure-container",
+    "objectKey": "file-1793882160463.shard.6",
+    "shardHash": "6be41232fb4d8fff41c697469071048bc2e20401286a57177b41cae148d6080d",
+    "shardSize": 16404,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793882160463.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T12:36:01.230Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T12:36:01.230Z",
+        "status": "passed",
+        "computedHash": "6be41232fb4d8fff41c697469071048bc2e20401286a57177b41cae148d6080d"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 01 00 10 00 00 40 04 11 ea 3d 7d 28 8a 7b 13 e0 df 9c 99 92 5d 80 53 ...",
+    "fileId": "6aec783138805a437f74d1fc"
+  },
+  {
+    "shardIndex": 1,
+    "shardType": "data",
+    "nodeId": "node-04",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.1",
+    "shardHash": "1e9e4fa5fa08f85a3d5b4177376cbc99db0803435706fd9ee02ec9fa2189d313",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-04/file-1793864446365.shard.1",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "1e9e4fa5fa08f85a3d5b4177376cbc99db0803435706fd9ee02ec9fa2189d313"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 01 04 02 00 00 f2 86 00 00 3c a2 07 cf 7e 8b 29 e4 6e 31 af 25 8b f4 66 3b c4 b1 ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  },
+  {
+    "shardIndex": 2,
+    "shardType": "data",
+    "nodeId": "node-06",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.2",
+    "shardHash": "ff673c6969a03ee023ce601c21394cf9b35d1b8bd944f15e78bc7ae4c6042724",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-06/file-1793864446365.shard.2",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "ff673c6969a03ee023ce601c21394cf9b35d1b8bd944f15e78bc7ae4c6042724"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 02 04 02 00 00 f2 86 00 00 3c a2 f3 da 1d a2 68 bb 26 77 92 78 29 0a dd ab e7 9d ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  },
+  {
+    "shardIndex": 3,
+    "shardType": "data",
+    "nodeId": "node-03",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.3",
+    "shardHash": "8ee65d936ac5714416d0c7666067f4d4a1a3a827d6c907ce96d8ab8beb112f0a",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-03/file-1793864446365.shard.3",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "8ee65d936ac5714416d0c7666067f4d4a1a3a827d6c907ce96d8ab8beb112f0a"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 03 04 02 00 00 f2 86 00 00 3c a2 87 3c f0 86 c2 54 8f 22 fd dc 4a 59 0a 9e fd 14 ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  },
+  {
+    "shardIndex": 4,
+    "shardType": "data",
+    "nodeId": "node-02",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.4",
+    "shardHash": "ab96071cef055fbf5a9bfeb68c6100aee360ba0f4a0773668bc8695a06fe98bf",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-02/file-1793864446365.shard.4",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "ab96071cef055fbf5a9bfeb68c6100aee360ba0f4a0773668bc8695a06fe98bf"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 04 04 02 00 00 f2 86 00 00 3c a2 25 81 9b 99 d3 84 0b 6d dc 65 10 fd 5f 60 59 14 ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  },
+  {
+    "shardIndex": 5,
+    "shardType": "parity",
+    "nodeId": "node-05",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.5",
+    "shardHash": "5dba120b3ea531c47842787b5a4a75f1e94a333dae97b373cbb5e979dffef462",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-05/file-1793864446365.shard.5",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "5dba120b3ea531c47842787b5a4a75f1e94a333dae97b373cbb5e979dffef462"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 05 04 02 00 00 f2 86 00 00 3c a2 b6 14 5b 85 67 5e 5a a0 1e 51 fe 7a 8a 03 fd 37 ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  },
+  {
+    "shardIndex": 6,
+    "shardType": "parity",
+    "nodeId": "node-01",
+    "provider": "local",
+    "bucket": null,
+    "objectKey": "file-1793874272140.shard.6",
+    "shardHash": "b3bea2a95578e56a1286871e470b2746db28c172fdc37e5aa30a3d208371bc6e",
+    "shardSize": 15538,
+    "storagePath": "/Users/sanskruti/Desktop/hackathon-project/storage/node-01/file-1793864446365.shard.6",
+    "status": "active",
+    "lastVerifiedAt": "2026-11-05T10:24:32.223Z",
+    "verificationHistory": [
+      {
+        "verifiedAt": "2026-11-05T10:24:32.223Z",
+        "status": "passed",
+        "computedHash": "b3bea2a95578e56a1286871e470b2746db28c172fdc37e5aa30a3d208371bc6e"
+      }
+    ],
+    "repairHistory": [],
+    "hexContent": "53 56 45 43 02 06 04 02 00 00 f2 86 00 00 3c a2 ee 92 11 3f 4a fe e3 9b ee 57 90 d1 ec a0 b6 21 ...",
+    "fileId": "6aec596092bee79ac1902cae"
+  }
+]

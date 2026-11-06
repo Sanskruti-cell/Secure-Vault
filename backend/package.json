@@ -1,0 +1,30 @@
+{
+  "name": "securevault-backend",
+  "version": "2.4.0",
+  "description": "Backend for SecureVault – Decentralized Cloud Storage with Zero-Knowledge Encryption, Reed-Solomon File Sharding, and Intelligent Deduplication",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test_comprehensive_e2e.mjs",
+    "test:crypto": "node test_crypto_v2.js",
+    "test:sharding": "node test_reed_solomon_42.js",
+    "test:dedup": "node test_dedup_e2e_verification.js",
+    "test:all": "node test_crypto_v2.js && node test_reed_solomon_42.js && node test_comprehensive_e2e.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.2.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "securevault",
+  "version": "2.4.0",
+  "description": "SecureVault – Decentralized Cloud Storage with Zero-Knowledge Encryption, Reed-Solomon File Sharding, and ML-Powered Node Allocation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node backend/src/server.js",
+    "ml": "python3 backend/ml/ml_service.py",
+    "test:backend": "node backend/test_comprehensive_e2e.mjs",
+    "test:crypto": "node backend/test_crypto_v2.js",
+    "test:sharding": "node backend/test_reed_solomon_42.js",
+    "test:all": "node backend/test_crypto_v2.js && node backend/test_reed_solomon_42.js && node backend/test_comprehensive_e2e.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.0",
+    "@react-three/fiber": "^8.13.0",
+    "lucide-react": "^0.293.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^3.10.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}

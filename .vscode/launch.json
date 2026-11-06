@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Backend Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/src/server.js",
+      "cwd": "${workspaceFolder}/backend",
+      "runtimeArgs": ["--experimental-vm-modules"],
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "5002"
+      }
+    },
+    {
+      "name": "Debug Python ML Service",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/ml/ml_service.py",
+      "cwd": "${workspaceFolder}/backend/ml",
+      "env": {
+        "PORT": "5001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2563eb;
+  --secondary: #06b6d4;
+  --accent: #7c3aed;
+  --success: #059669;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --bg-base: #060a14;
+  --bg-surface: #0c1220;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #060a14 !important;
+  color: #e2e8f0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 90% 20%, rgba(6, 182, 212, 0.05) 0%, transparent 40%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+  background-attachment: fixed;
+}
+
+/* Custom Refined Enterprise Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(6, 10, 20, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.3);
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.6);
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.page-enter {
+  animation: pageEnter 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes softFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.float-soft {
+  animation: softFloat 6s ease-in-out infinite;
+}
+
+@keyframes statusPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+.status-pulse {
+  animation: statusPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Specular Enterprise Glass Effect */
+.glass-panel {
+  background: rgba(12, 18, 32, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.4), inset 0 1px 0 0 rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-glow-blue {
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow: 0 0 25px -5px rgba(37, 99, 235, 0.15), inset 0 1px 0 0 rgba(147, 197, 253, 0.15);
+}
+
+.glass-panel-glow-cyan {
+  border-color: rgba(6, 182, 212, 0.25);
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.15), inset 0 1px 0 0 rgba(165, 243, 252, 0.15);
+}
+
+.glass-panel-glow-purple {
+  border-color: rgba(139, 92, 246, 0.25);
+  box-shadow: 0 0 25px -5px rgba(124, 58, 237, 0.15), inset 0 1px 0 0 rgba(216, 180, 254, 0.15);
+}
+
+.glass-panel-glow-emerald {
+  border-color: rgba(16, 185, 129, 0.25);
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.15), inset 0 1px 0 0 rgba(167, 243, 208, 0.15);
+}
+
+.glass-panel-glow-red {
+  border-color: rgba(239, 68, 68, 0.35);
+  box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.2), inset 0 1px 0 0 rgba(254, 202, 202, 0.15);
+}
+
+/* Enterprise Pill Badges */
+.badge-tech {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+/* Micro-interaction Button Glow */
+.btn-enterprise {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-enterprise::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-enterprise:hover::after {
+  left: 100%;
+}

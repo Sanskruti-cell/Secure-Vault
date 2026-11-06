@@ -1,0 +1,27 @@
+# ==============================================================================
+# SECUREVAULT BACKEND – GIT IGNORE CONFIGURATION
+# ==============================================================================
+
+# Node dependencies
+node_modules/
+
+# Runtime storage & uploaded shards
+storage/
+*.shard.*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Temporary and staging data
+data/staging/*
+!data/staging/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
